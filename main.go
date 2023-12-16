@@ -11,6 +11,6 @@ func f(x int) {
 }
 func main() {
 
-	f(5)
+	f(10)
 
 }
