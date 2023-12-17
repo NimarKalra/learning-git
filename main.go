@@ -2,15 +2,7 @@ package main
 
 import "fmt"
 
-func f(x int) {
-	if x == 0 {
-		return
-	}
-	fmt.Print("hi\n")
-	f(x - 1)
-}
 func main() {
-
-	f(10)
-
+	var arr [5]int = [5]int{1, 2, 3, 4, 5}
+	fmt.Println(arr)
 }
